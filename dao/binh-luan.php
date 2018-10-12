@@ -20,7 +20,7 @@ function binh_luan_delete($ma_bl){
     }
 }
 function binh_luan_select_all(){
-    $sql = "SELECT * FROM binh_lan bl ORDER BY ngay_bl DESC";
+    $sql = "SELECT * FROM binh_luan bl ORDER BY ngay_bl DESC";
     return pdo_query($sql);
 }
 function binh_luan_select_by_id($ma_bl){

@@ -70,6 +70,10 @@ function get_cookie($name){
  * phép sử dụng thì cần thiết phải gọi hàm này trước
  **/
 function check_login(){
+    // var_dump($_SESSION['user']);
+    // echo "check if session user exists";
+    // echo isset($_SESSION['user']);
+    // exit();
     global $SITE_URL;
     if(isset($_SESSION['user'])){
         if($_SESSION['user']['vai_tro'] == 1){
